@@ -1,0 +1,20 @@
+AIGC_API:
+  DEEP_SEEK:
+    API_KEY: YourAPIKey
+    API_BASE_URL: YourAPIBaseURL
+
+
+DB_URI: 
+  YourDBAlias:
+    DIALECT: postgresql
+    HOST: YourHost
+    PORT: YourPort
+    USER: YourName
+    PASSWORD: YourPWD
+
+
+DB_SRC:
+  PRJ_DATA:
+    DB_ALIAS: YourDBAlias
+    DB_NAME: YourDBName
+    DB_SCHEMA: YourDBSchema

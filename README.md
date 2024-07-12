@@ -61,21 +61,5 @@ Text2Data 是一个基于自然语言处理的应用程序，允许用户通过�
 
 ### 配置文件 `config.yaml`
 
-在项目根目录下创建一个 `config.yaml` 文件，内容如下：
+在项目configs目录下复制 `config.example.yaml`，并重命名为 `config.yaml` 文件。
 
-```yaml
-DB_URI: 
-  YourDBAlias:
-    DIALECT: postgresql
-    HOST: YourHost
-    PORT: YourPort
-    USER: YourName
-    PASSWORD: YourPWD
-
-
-DB_SRC:
-  PRJ_DATA:
-    DB_ALIAS: YourDBAlias
-    DB_NAME: YourDBName
-    DB_SCHEMA: YourDBSchema
-```
